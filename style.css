@@ -1,0 +1,287 @@
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: monospace;
+}
+.header-container {
+    height: 200px;
+}
+.header-title {
+    float: left;
+    color: rgb(87, 163, 87);
+    line-height: 0px;
+    margin-left: 100px;
+}
+.header-title img {
+    margin-top: 50px;
+}
+.header-title h4 {
+    margin-top: -90px;
+    text-align: center;
+}
+.header-menu {
+    float: right;
+    line-height: 150px;
+}
+.header-menu li {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.header-menu li:last-child {
+    margin-right: 150px;
+}
+.header-menu li:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .header-container {
+        height: 150px;
+    }
+    .header-title {
+        float: left;
+        color: rgb(87, 163, 87);
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    .header-title h4 {
+        margin-top: -30px;
+    }
+    .header-menu {
+        display: none;
+    }
+}
+
+.main-title {
+    text-align: center;
+    width: 100%;
+}
+.main-img {
+    opacity: 0.8;
+}
+.main-title h1 {
+    font-size: 45px;
+}
+.title p {
+    font-size:20px;
+    margin-top: 30px;
+}
+.title {
+    position: relative;
+    color: rgb(87, 163, 87);
+    width: 80%;
+    top: -400px;
+    letter-spacing: 5px;
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .main-img img {
+        height: 200px;
+        width: 100%;
+    }
+    .main-title h1 {
+        font-size: 20px;
+    }
+    .title p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .title {
+        position: relative;
+        color: rgb(87, 163, 87);
+        width: 80%;
+        top: -180px;
+        left: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+.intro-contaier {
+    background-color: rgb(212, 250, 212);
+    padding: 80px 10px;
+    margin-top: -120px;
+}
+.intro-title {
+    display: block;
+    width: 80%;
+    margin-left: 130px;
+    padding: 30px 30px 50px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.introduction h1 {
+    font-size: 35px;
+    color: rgb(87, 163, 87);
+    letter-spacing: 2px;
+}
+.explain {
+    margin-left: 130px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.name {
+    margin-top: 70px;
+    margin-left: 100px;
+    letter-spacing: 1px;
+}
+.name h3 {
+    font-size: 28px;
+    color: rgb(87, 163, 87);
+}
+.name article {
+    font-size: 20px;
+    margin-left: 130px;
+    line-height: 40px;
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .intro-contaier {
+        padding: 30px 0px;
+        margin-top: -120px;
+    }
+    .intro-title {
+        display: block;
+        width: 90%;
+        margin-left: 10px;
+        padding: 30px 10px;
+    }
+    .introduction h1 {
+        font-size: 20px;
+    }
+    .explain {
+        margin-left: 0px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .name {
+        margin-top: 40px;
+        margin-left: 10px;
+        letter-spacing: 0px;
+    }
+    .name h3 {
+        font-size: 17px;
+        color: rgb(87, 163, 87);
+    }
+    .name article {
+        font-size: 13px;
+        margin-left: 0px;
+        line-height: 20px;
+    }
+}
+
+.customer-container {
+    background-color: rgb(236, 200, 133);
+    margin-top: -20px;
+    padding: 50px 0px;
+}
+.customer-title {
+    display: block;
+    width: 80%;
+    margin-left: 130px;
+    padding: 30px 30px 50px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.customer-title h1 {
+    color: rgb(224, 158, 35);
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.customer-title article {
+    font-size: 20px;
+    margin: 0px 100px;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+.customer-detail span {
+    color: rgb(224, 158, 35);
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .customer-container {
+        background-color: rgb(236, 200, 133);
+        margin-top: 0px;
+        padding: 30px 0px;
+    }
+    .customer-title {
+        width: 90%;
+        margin-left: 10px;
+        padding: 30px 10px;
+    }
+    .customer-title h1 {
+        font-size: 20px;
+    }
+    .customer-title article {
+        font-size: 13px;
+        margin: 0px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+}
+
+.footer-container {
+    display: flex;
+}
+.footer-title {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.adress {
+    margin-left: 100px;
+}
+.adress h3 {
+    font-size: 20px;
+}
+.contact {
+    margin-left: 200px;
+    margin-top: 110px;
+}
+.contact h2 {
+    font-size: 25px;
+}
+.contact h3 {
+    font-size: 20px;
+}
+.footer-menu {
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(214, 210, 210);
+    height: 80px;
+    line-height: 80px;
+}
+.footer-menu li {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 100px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.footer-menu li:last-child {
+    margin-right: 150px;
+}
+.footer-menu li:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .footer-container {
+        display: block;
+    }
+    .footer-title {
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    .contact {
+        margin-left: 10px;
+        margin-top: 110px;
+    }
+    .contact h3 {
+        margin-left: 100px;
+    }
+    .footer-menu {
+        display: none;
+}
