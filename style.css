@@ -64,7 +64,7 @@ body {
         list-style: none;
         margin-left: 10px;
         font-family: monospace;
-        font-size: 7px;
+        font-size: 10px;
     }
     .header-menu li:last-child {
         margin-right: 50px;
