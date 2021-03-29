@@ -51,7 +51,22 @@ body {
 .humburger {
     display: none;
 }
-
+/* ページ移動 */
+.page {
+    display: flex;
+    position: fixed;
+    top: 600px;
+    right: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(178, 247, 199);
+    color: rgb(94, 91, 91);
+}
+.fingure {
+    font-size: 20px;
+}
+/* ページ移動 */
 
 @media (min-width:320px) and (max-width: 900px)  {
     .header-container {
@@ -151,6 +166,22 @@ body {
     .change {
         right: 0;
     }
+    /* ページ移動 */
+    .page {
+        display: flex;
+        position: fixed;
+        top: 650px;
+        right: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: rgb(178, 247, 199);
+        color: rgb(94, 91, 91);
+    }
+    .fingure {
+        font-size: 10px;
+    }
+    /* ページ移動 */
 }
 
 .main-title {
