@@ -1,4 +1,210 @@
-0px;
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: monospace;
+}
+.header-container {
+    height: 200px;
+    display: flex;
+}
+.header-title {
+    /* float: left; */
+    display: flex;
+    color: rgb(97, 211, 97);
+    line-height: 0px;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 100px;
+}
+.header-title img {
+    margin-top: 30px;
+    line-height: 100px;
+}
+.header-title h1 {
+    margin-left: 30px;
+    line-height: 100px;
+}
+.header-menu {
+    margin-top: 50px;
+    line-height: 100px;
+}
+.header-menu li {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.header-menu li:last-child {
+    margin-right: 0px;
+}
+.header-menu li:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+}
+
+/* ハンバーガー */
+.humburger {
+    display: none;
+}
+/* ページ移動 */
+.page {
+    display: flex;
+    position: fixed;
+    top: 600px;
+    right: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(178, 247, 199);
+    color: rgb(94, 91, 91);
+}
+.fingure {
+    font-size: 20px;
+}
+/* ページ移動 */
+
+@media (min-width:320px) and (max-width: 900px)  {
+    .header-container {
+        height: 100px;
+        display: block;
+        /* position: fixed; */
+        background-color: white;
+        width: 100%;
+    }
+    .header-title {
+        display: flex;
+        color: rgb(87, 163, 87);
+        margin-left: 0px;
+        /* margin-top: 30px; */
+        color: rgb(97, 211, 97);
+        line-height: 0px;
+        margin-top: 0px;
+        height: 100px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+    }
+    .header-title img {
+        margin-top: 10px;
+        line-height: 100px;
+        height: 40px;
+    }
+    .header-title h1 {
+        margin-left: 10px;
+        line-height: 50px;
+        font-size: 13px;
+    }
+    .header-menu {
+        margin-top: 10px;
+        line-height: 50px;
+        display: none;
+    }
+    .header-menu li {
+        display: inline-flex;
+        list-style: none;
+        margin-left: 10px;
+        font-family: monospace;
+        font-size: 10px;
+    }
+    .header-menu li:last-child {
+        margin-right: 0px;
+    }
+    .header-menu li:hover {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    }
+    .menu {
+        text-decoration: none;
+        color: black;
+    }
+    /* ハンバーガー */
+    .humburger {
+        display: flex;
+        flex-direction: column;
+    }
+    .lines {
+        height: 35px;
+        width: 35px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 35;
+    }
+    .line {
+        background-color: orange;
+        height: 3px;
+        width: 100%;
+    }
+    .menus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -500px;
+        background-color: white;
+        transition: right 0.9s;
+        z-index: 30;
+    }
+    .menus a {
+        color: black;
+        line-height: 100px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .change {
+        right: 0;
+    }
+    /* ページ移動 */
+    .page {
+        display: flex;
+        position: fixed;
+        top: 650px;
+        right: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: rgb(178, 247, 199);
+        color: rgb(94, 91, 91);
+    }
+    .fingure {
+        font-size: 10px;
+    }
+    /* ページ移動 */
+}
+
+.main-title {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    height: 400px;
+    color: gray;
+}
+.title h1 {
+    font-size: 50px;
+}
+.title p {
+    font-size: 20px;
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .main-title {
+        text-align: center;
+        font-family: sans-serif;
+        letter-spacing: 4px;
+        height: 300px;
+        color: gray;
+        margin-top: 20px;
     }
     .title h1 {
         font-size: 25px;
