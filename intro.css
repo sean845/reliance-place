@@ -179,217 +179,156 @@
     /* ページ移動 */
 }
 
-.main-container {
-    background-color: rgb(229, 250, 229);
-}
 .main-title {
     text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    height: 400px;
+    color: gray;
+}
+.title h1 {
+    font-size: 50px;
+}
+.title p {
     font-size: 20px;
-    letter-spacing: 10px;
-    line-height: 70px;
-    padding-top: 100px;
 }
-.sub-title {
-    font-size: 15px;
-    margin-top: 50px;
-}
-
-@media (min-width:320px) and (max-width: 900px) {
+@media (min-width:320px) and (max-width: 900px)  {
     .main-title {
         text-align: center;
-        font-size: 10px;
-        letter-spacing: 5px;
-        line-height: 50px;
-        padding-top: 100px;
-    }
-    .sub-title {
-        font-size: 8px;
-        margin: 30px 50px;
-    }
-}
-
-.target {
-    text-align: center;
-    margin-top: 100px;
-    color: gray;
-}
-.target li {
-    font-size: 25px;
-    letter-spacing: 7px;
-    line-height: 70px;
-    list-style-type: none;
-}
-.target-img {
-    margin: 30px;
-}
-.target-img img {
-    margin: 0 30px;
-    border-radius: 40px;
-}
-
-@media (min-width:320px) and (max-width: 900px) {
-    .target {
-        text-align: center;
-        margin-top: 50px;
+        font-family: sans-serif;
+        letter-spacing: 4px;
+        height: 300px;
         color: gray;
+        margin-top: 20px;
     }
-    .target li {
+    .title h1 {
+        font-size: 25px;
+    }
+    .title p {
         font-size: 15px;
-        letter-spacing: 3px;
-        line-height: 40px;
-        list-style: outside;
-        margin: 0 40px;
-    }
-    .target-img {
-        margin-top: 50px;
-    }
-    .target-img img {
-        margin: 0 10px;
-        border-radius: 40px;
-        width: 40%;
-        display: inline-inblock;
     }
 }
 
-.support {
-    color: gray;
-    margin-top: 200px; 
-    text-align: center;
-    background-color: rgb(250, 230, 193);
-    padding-top: 70px;
+.intro-contaier {
+    background-color: rgb(212, 250, 212);
+    padding: 80px 10px;
+    margin-top: -120px;
 }
-.support h1 {
-    font-size: 40px;
-    letter-spacing: 7px;
+.intro-title {
+    display: block;
+    width: 80%;
+    margin-left: 130px;
+    padding: 30px 30px 50px 50px;
+    background-color: white;
+    border-radius: 20px;
 }
-.support-detail {
-    display: flex;
-    margin-top: 100px;
-    padding-bottom: 100px;
+.introduction h1 {
+    font-size: 35px;
+    color: rgb(87, 163, 87);
+    letter-spacing: 2px;
 }
-.support-intro {
-    width: 60%;
-    text-align: center;
-    font-size: 15px
-}
-.support-intro h2 {
-    line-height: 70px;
-}
-.support-detail img {
-    border-radius: 30px;
-}
-
-@media (min-width:320px) and (max-width: 900px) {
-    .support {
-        color: gray;
-        margin-top: 90px; 
-        text-align: center;
-        background-color: rgb(250, 230, 193);
-        padding-top: 30px;
-    }
-    .support h1 {
-        font-size: 20px;
-        letter-spacing: 7px;
-    }
-    .support-detail {
-        display: block;
-        margin-top: 50px;
-        padding-bottom: 0px;
-    }
-    .support-intro {
-        width: 100%;
-        text-align: center;
-        font-size: 10px
-    }
-    .support-intro h2 {
-        text-align: center;
-        line-height: 40px;
-        margin: 0 40px;
-    }
-    .support-detail img {
-        border-radius: 30px;
-        margin-top: 30px;
-    }
-}
-
-
-.example {
-    padding: 100px 0px;
-    background-color: rgb(250, 230, 193);
-}
-.exapmle-title {
-    text-align: center;
-    color: gray;
+.explain {
+    margin-left: 130px;
     font-size: 20px;
-    letter-spacing: 8px;
+    letter-spacing: 1px;
 }
-.example-detail {
-    display: flex;
-    margin-top: 80px;
-    border-bottom: 1px solid black;
+.name {
+    margin-top: 70px;
+    margin-left: 100px;
+    letter-spacing: 1px;
 }
-.example-details {
-    display: flex;
+.name h3 {
+    font-size: 28px;
+    color: rgb(87, 163, 87);
 }
-
-.example-detail img {
-    margin-left: 50px;
+.name article {
+    font-size: 20px;
+    margin-left: 130px;
+    line-height: 40px;
 }
-.exapmle-plan {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.example-message {
-    font-size: 25px;
-    line-height: 70px;
-}
-@media (min-width:320px) and (max-width: 900px) {
-    .example {
-        padding: 50px 0px;
-        background-color: rgb(250, 230, 193);
+@media (min-width:320px) and (max-width: 900px)  {
+    .intro-contaier {
+        padding: 30px 0px;
+        margin-top: -120px;
     }
-    .exapmle-title {
-        text-align: center;
-        color: gray;
-        font-size: 15px;
-        letter-spacing: 7px;
-    }
-    .example-detail {
-        display: flex;
-        justify-content: center;
-        margin: 0 40px;
-        margin-top: 80px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid black;
-        width: 80%;
-    }
-    .example-detail h2 {
-        margin-right: 20px;
-    }
-    .example-details {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .example-detail img {
-        margin-left: 20px;
-    }
-    .exapmle-plan {
+    .intro-title {
         display: block;
-        justify-content: space-evenly;
-        align-items: center;
+        width: 90%;
+        margin-left: 10px;
+        padding: 30px 10px;
     }
-    .example-message {
+    .introduction h1 {
+        font-size: 20px;
+    }
+    .explain {
+        margin-left: 0px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .name {
+        margin-top: 40px;
+        margin-left: 10px;
+        letter-spacing: 0px;
+    }
+    .name h3 {
         font-size: 17px;
-        line-height: 70px;
-        text-align: center;
-        margin-top: 80px;
+        color: rgb(87, 163, 87);
+    }
+    .name article {
+        font-size: 13px;
+        margin-left: 0px;
+        line-height: 20px;
     }
 }
 
-
-
+.customer-container {
+    background-color: rgb(236, 200, 133);
+    margin-top: -20px;
+    padding: 50px 0px;
+}
+.customer-title {
+    display: block;
+    width: 80%;
+    margin-left: 130px;
+    padding: 30px 30px 50px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.customer-title h1 {
+    color: rgb(224, 158, 35);
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.customer-title article {
+    font-size: 20px;
+    margin: 0px 100px;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+.customer-detail span {
+    color: rgb(224, 158, 35);
+}
+@media (min-width:320px) and (max-width: 900px)  {
+    .customer-container {
+        background-color: rgb(236, 200, 133);
+        margin-top: 0px;
+        padding: 30px 0px;
+    }
+    .customer-title {
+        width: 90%;
+        margin-left: 10px;
+        padding: 30px 10px;
+    }
+    .customer-title h1 {
+        font-size: 20px;
+    }
+    .customer-title article {
+        font-size: 13px;
+        margin: 0px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+}
 
 
 .containers {
